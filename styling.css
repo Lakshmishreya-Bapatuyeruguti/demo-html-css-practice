@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+#nav-bar{
+    background-color:	#DE3163;
+    overflow:hidden;
+    height:50px;
+    text-align: right;
+    
+ 
+}
+.nav-list{
+    color: snow;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: 600;
+  
+}
+.logo{
+    position: absolute;
+    top:5px;
+    left:5px;
+    height: 40px;
+
+}
+.logo-title{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color: azure;
+}
+
