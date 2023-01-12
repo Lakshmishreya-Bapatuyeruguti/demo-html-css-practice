@@ -1,14 +1,19 @@
 body{
     margin: 0;
+    background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+   background-size:cover;
 }
 #nav-bar{
     background-color:	#DE3163;
     overflow:hidden;
     height:50px;
-    text-align: right;
+    /* text-align: right; */
+    /* justify-content: center; */
     
  
 }
+
 .nav-list{
     color: snow;
     text-decoration: none;
@@ -34,4 +39,49 @@ body{
     padding-top: 10px;
     color: azure;
 }
+.heading-form{
+    color:#d8456f;
+    text-align: center;
+    font-style: italic;
+}
+.input-area{
+    display: block;
+    margin: auto;
+   margin-bottom: 30px;
+}
+.form-container{
+    margin: auto;
+    padding: 20px;
+    /* text-align: center; */
+    background-color:azure;
+    width: max-content;
+    border-radius: 20%;
+    
 
+    
+}
+.labels-form{
+    position: relative;
+    top:20px;
+   color:rgb(3, 3, 105);
+   font-weight: 500;
+}
+.input-area-exception{
+    display: inline;
+ 
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #d8456f;
+    color: azure;
+    border: 0ch;
+    font-weight: 700;
+    border-radius: 5%;
+}
+.temp{
+    background-color: black;
+}
+.labels-radio{
+    color:rgb(3, 3, 105);
+}
